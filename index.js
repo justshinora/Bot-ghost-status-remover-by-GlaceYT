@@ -47,7 +47,7 @@ async function login() {
     await client.login(process.env.TOKEN);
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
-    console.error('Failed to log in:', error);
+    console.error('Failed tos log in:', error);
     process.exit(1);
   }
 }
